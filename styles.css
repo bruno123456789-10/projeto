@@ -1,0 +1,35 @@
+.botao {
+    border: none ;
+    font-style: unset;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    animation: animado;
+    animation-duration: 15s;
+    
+}
+@keyframes animado {
+    0%    {background-color: palevioletred;}
+    10%   {background-color: rgb(51, 255, 0);}
+    20%   {background-color: rgb(68, 0, 255);}
+    30%   {background-color: rgb(229, 255, 0);}
+    40%   {background-color: rgb(255, 0, 242);}
+    50%   {background-color: rgb(255, 102, 0);}
+    60%   {background-color: rgb(0, 4, 255);}
+    70%   {background-color: rgb(46, 123, 240);}
+    80%   {background-color: rgb(250, 134, 225);}
+    90%   {background-color: rgb(0, 255, 242);}
+    100%   {background-color: rgb(179, 255, 0);}
+    
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    
+}
+
+body{
+    background-image: url(/hqdefault.jpg);
+}
